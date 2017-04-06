@@ -1,24 +1,13 @@
-# README
+# 準備すること
+## 開発環境のセットアップ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+git clone git@github.com:georgesekkie/my_book_tweet.git
+cd my_book_tweet
+bundle install
+bundle exec rake db:create db:migrate
+```
 
-Things you may want to cover:
+## 一度サインアップしましょう
+http://localhost:3000/users/sign_up
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
