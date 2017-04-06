@@ -2,7 +2,7 @@
 ## 開発環境のセットアップ
 
 ```
-git clone git@github.com:georgesekkie/my_book_tweet.git
+git clone https://github.com/georgesekkie/my_book_tweet.git my_book_tweet
 cd my_book_tweet
 bundle install
 bundle exec rake db:create db:migrate
